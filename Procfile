@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/feedme" config.wsgi:application
